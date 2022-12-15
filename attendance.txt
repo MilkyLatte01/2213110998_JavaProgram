@@ -1,4 +1,5 @@
+Date: 15-Dec-2022
 Student(ID): 2213110998
 Full name(in English): Wrawprach Kraithip
 AKA: MilkyLatte01
-Class Detail: Lab Sheet 3 : Control Statement & Confirm Dialog
+Class Detail: Array in Java
