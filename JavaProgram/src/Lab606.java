@@ -15,7 +15,7 @@ public class Lab606 {
 				"\n"+nextData);
 	}
 	public static boolean checkIndex(int[] nums,int index) {
-		
+	
 		return index>=nums.length?true:false;
 	}
 	public static int currentData(int[] nums,int index) {
