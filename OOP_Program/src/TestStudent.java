@@ -12,14 +12,19 @@ public class TestStudent {
 			std[i]=new Student();//Declare array object, call method Student()
 			System.out.print("Input student name : ");
 			std[i].setName(scan.next());
+			
 			System.out.print("Input student score : ");
 			std[i].setScore(scan.nextInt());
+			
 			while(!std[i].checkScore()) {
 				System.out.print("Input student score, again");
 				std[i].setScore(scan.nextInt());
 			}//End while loop
+			
 			System.out.println("");
+			
 		}//End for loop
+
 		//System.out.println("LIST OF PASS STUDENT(<=50)");
 		System.out.println("-------------------------------------");
 		for(Student STD:std) {
